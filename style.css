@@ -1,0 +1,171 @@
+body {
+    direction: rtl;
+    font-family: sans-serif;
+    color: #f5f5dc;
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    background-color:#f5f5dc;
+    color: #001f3f ;
+    padding: 30px;
+    text-align: center;
+}
+.my_profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:  2px solid #001f3f;
+    object-fit: cover;
+}
+nav ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+nav a {
+    color:#001f3f;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#ph_in{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:  2px solid #f5f5dc;
+    background-color: #f5f5dc;
+}
+#log {
+    text-align: center;
+    padding: 40px;
+    background-color:#001f3f;
+}
+#about_me {
+    text-align: center;
+    padding: 40px;
+    background-color:#f5f5dc;
+    color: #001f3f;
+}
+#my_project {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:#001f3f;
+
+}
+.line_t {
+    color: #f5f5dc;
+}
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+.ph_project {
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    background-color: #f5f5dc;
+    color: #001f3f;
+}
+.photos .ph_project img {
+    width: 100%;
+    margin-bottom: 20px;  
+    
+}
+#skills {
+    color: #001f3f;
+    background-color: #f5f5dc;
+}
+.address {
+    text-align: center;
+    color: #001f3f;
+
+}
+.my_skill {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+.line {
+    color: #001f3f;
+
+}
+.skill_html {
+    margin-bottom: 20px;
+}
+.skill_css {
+    margin-bottom: 20px;
+}
+.skill_js {
+    margin-bottom: 20px;
+}
+.skill_java {
+    margin-bottom: 20px;
+}
+.parsent {
+    background-color:#f5f5dc;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.pre {
+    background-color:#001f3f;
+    color: #f5f5dc;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 6px 0 0 6px;
+}
+#call_me {
+    background-color: #001f3f;
+    padding: 40px 20px ;
+    text-align: center;
+    color: #f5f5dc;
+}
+.forms {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: right;
+    color: #f5f5dc;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+input , textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f5f5dc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+button {
+    background-color: #f5f5dc;
+    color:#001f3f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.to_up {
+    background-color: #001f3f;
+    color: #f5f5dc;
+    text-align: right;
+    margin-right: 600px;
+    font-size: 25px;
+    padding: 10px 5px 10px 5px;
+}
+#down {
+    background-color: #001f3f;
+    color: #f5f5dc;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    margin-top: 30px; 
+}
